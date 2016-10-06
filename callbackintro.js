@@ -8,8 +8,8 @@ function findWaldo(arr, found) {
 }
 
 //Index value is passed and printing
-function actionWhenFound(index) {
-  console.log(`Found him at ${index}`);
+function actionWhenFound(all) {
+  console.log("Found him at: " + all + ".");
   //Seen something similar in ruby and looked on stackoverflow which put me in the right direction.
 }
 
